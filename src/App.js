@@ -6,10 +6,11 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Allmeetapp from './Social-post/Pages/Allmeetapp';
-import Newmeetapp from './Social-post/Pages/Newmeetapp';
-import Favoritemeetapp from './Social-post/Pages/Favoritemeetapp';
+import Allmeetapp from './Social-post/component/Layout/Pages/Allmeetapp';
+import Newmeetapp from './Social-post/component/Layout/Pages/Newmeetapp';
+import Favoritemeetapp from './Social-post/component/Layout/Pages/Favoritemeetapp';
 import Layout from './Social-post/component/Layout/Layout';
+import FavoriteContextProvider from './Social-post/component/Store/FavoriteContextProvider';
 
 function App() {
 

@@ -2,16 +2,19 @@ import React from 'react'
 import MeetappItem from './MeetappItem'
 
 function MeetappItemList(props) {
+  // console.log(props.data,"in lis")
   return (
     <div>
     <ul>
         {props.data.map(d=>(
              <MeetappItem 
+
                 key={d.id}
-                title = {d.title}
-                image ={d.image}
                 address ={d.address}
-                desc ={d.description}
+                desc ={d.desc}
+                id={d.id}
+                image ={d.image}
+                title = {d.title}
                  />
             ))}
     </ul>

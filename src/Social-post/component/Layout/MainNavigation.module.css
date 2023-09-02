@@ -6,6 +6,9 @@
     justify-content: space-between;
     background-color: #77002e;
     padding: 0 10%;
+    display:flex;
+    word-wrap:break-word;
+    flex-wrap: wrap;
   }
   
   .logo {
@@ -45,3 +48,81 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
   }
+/* Responsive mobile styles */
+@media (max-width: 480px) {
+  .header {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .header ul {
+    flex-direction: column;
+  }
+
+  .header li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    
+  }
+}
+
+/* Responsive tablet styles */
+@media (max-width: 620px) {
+  .header {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  
+  .header ul {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .header li {
+    margin: 0.3rem;
+    font-size: 1rem;
+    font-size: 0.55rem;
+    width: auto;
+  }
+}
+/* Responsive tablet styles */
+@media (max-width: 760px) {
+  .header {
+    height: auto;
+    width: 100%;
+    padding: 0.6rem;
+    /* flex-direction: column; */
+  }
+  
+  .header ul {
+    margin: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .header li {
+    margin: 0.3rem;
+    font-size: 0.6rem;
+    font-size: 0.55rem;
+    width: auto;
+  }
+}
+
+/* Responsive larger mobile devices styles */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 8%;
+  }
+
+  .header li {
+   font-size: small;
+    margin-left: 2.5rem;
+  }
+}
