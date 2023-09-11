@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Seresher-city-app/static/css/main.88e505a3.css",
+    "main.js": "/Seresher-city-app/static/js/main.afd9e63b.js",
+    "index.html": "/Seresher-city-app/index.html",
+    "main.88e505a3.css.map": "/Seresher-city-app/static/css/main.88e505a3.css.map",
+    "main.afd9e63b.js.map": "/Seresher-city-app/static/js/main.afd9e63b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88e505a3.css",
+    "static/js/main.afd9e63b.js"
+  ]
+}
